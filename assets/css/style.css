@@ -1,303 +1,257 @@
 /* Google font */
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap");
 
-
-
-*{
-	margin:0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-/*
-p,h1,h2,h3{
-
-	text-align: center;
-	align-items: center;
-}
-*/
 
 /* Header */
-
-header{
-	background-color: #343a40;
+header {
+  background-color: #343a40;
 }
 
-.logo{
-	padding: 0;
+.logo {
+  padding: 0;
 }
 
 .links {
-	font-size: 24px;
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 0;
-	letter-spacing: 3px;
+  font-size: 24px;
+  font-family: "Baloo Paaji 2", cursive;
+  padding: 0;
+  letter-spacing: 3px;
 }
 
 /* Large image - home page */
 
-.mainimage{
-	width: 100%;
+.mainimage {
+  width: 100%;
 }
 
-/*
-
-@media(max-width: 572px) {
-    .mainimage {
-		width: 100%;
-   		height: 290px;
-}
-}
-*/
-
-.mainimagetext{
-	position: absolute;
-	color:white;
-	padding-left:5%;
-	padding-top:40%;
-	text-transform: uppercase;
-	font-size: 40px;
+.mainimagetext {
+  position: absolute;
+  color: white;
+  padding-left: 5%;
+  padding-top: 40%;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
-/* NEWS Section */ 
+/* NEWS Section */
 
-.newsheading{
-	font-family: 'Baloo Paaji 2', cursive;
-	font-size: 3em;
-	padding-top: .2em;
-	text-align: center;
+.newsheading {
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 3em;
+  padding-top: 0.2em;
+  text-align: center;
 }
 
-.newsline{
-	color: #343a40;
-    width: 50%;
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border: .5px dashed;
+.newsline {
+  color: #343a40;
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 0.5px dashed;
 }
 
-.newsheadline{
-	font-family: 'Baloo Paaji 2', cursive;
-	font-size: 1.8em;
-	text-align: center;
+.newsheadline {
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 1.8em;
+  text-align: center;
 }
 
 .newstext {
-	font-family: 'Baloo Paaji 2', cursive;
-	font-size: 1.3em;
-	text-align: center;
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 1.3em;
+  text-align: center;
 }
 
-.newslink{
-	text-decoration: none;
-	text-align: center;
-	align-items: center;
-	text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+.newslink {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
-
-.newslink:hover{
-	text-decoration: none;
-	text-align: center;
-	align-items: center;
-	text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+.newslink:hover {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
-
 
 /* Team page */
 .teamheader {
-	/*padding: top right bottom left */
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 4% 4% 4% 4%;
-	text-align: center;
-	font-size: 3em;
+  /*padding: top right bottom left */
+  font-family: "Baloo Paaji 2", cursive;
+  padding: 4% 4% 4% 4%;
+  text-align: center;
+  font-size: 3em;
 }
 
-.skaterList{
-	display: block;
+.skaterList {
+  display: block;
 }
 
 .skaterThumbPhoto {
-	width: 100%;
-	padding: 4% 4% 4% 4%;
-	border-radius: 50px;
-    border: 5px solid darkslategrey;
+  width: 100%;
+  padding: 4% 4% 4% 4%;
+  border-radius: 50px;
+  border: 5px solid darkslategrey;
 }
 
-@media(max-width: 540px) {
-    .skaterThumbPhoto {
-	padding-left: 15%;
+@media (max-width: 540px) {
+  .skaterThumbPhoto {
+    padding-left: 15%;
     padding-top: 6%;
     padding-bottom: 6%;
     padding-right: 15%;
-}
-}
-
-.skaterName{
-	text-align: center;
-	padding: 2% 1% 1% 1%;
-	font-size: 1.5em;
-	letter-spacing: 3px;
-	font-weight: bold;
+  }
 }
 
-
-
-@media(max-width: 540px) {
-    .skaterName{
-		font-size: 2.5em;
-		letter-spacing: 3px;
-		font-family: 'Baloo Paaji 2', cursive;
-		font-weight: bold;
-}
+.skaterName {
+  text-align: center;
+  padding: 2% 1% 1% 1%;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
+@media (max-width: 540px) {
+  .skaterName {
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-family: "Baloo Paaji 2", cursive;
+    font-weight: bold;
+  }
+}
 
 /* Roller derby 101 page */
-.derby101Header{
-	text-align: center;
-	letter-spacing: 3px;
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 1% 1% 1% 1%;
+.derby101Header {
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: "Baloo Paaji 2", cursive;
+  padding: 1% 1% 1% 1%;
 }
 
-.derby101Video{
-	padding: 1% 2% 1% 28%;
+.derby101Video {
+  height: 500px;
+  width: 100%;
 }
-
 
 .derby101Links {
-	padding:1% 2% 1% 40%;
+  padding: 1% 2% 1% 40%;
 }
 
-.derby101Links a:link{
-	color:#204051;
-	text-decoration: none;
-	text-transform: uppercase;
+.derby101Links a:link {
+  color: #204051;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.derby101Links a:visited{
-	color:#3b6978;
-	text-decoration: none;
-	text-transform: uppercase;
+.derby101Links a:visited {
+  color: #3b6978;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.derby101Links a:hover{
-	color:#3b6978;
-	text-decoration: none;
-	text-transform: uppercase;
+.derby101Links a:hover {
+  color: #3b6978;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.derby101Links a:active{
-	color:#cae8d5;
-	text-decoration: none;
-	text-transform: uppercase;
+.derby101Links a:active {
+  color: #cae8d5;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* Contact us page */
-.contactPageHeader{
-	font-family: 'Baloo Paaji 2', cursive;
-	/*padding: top right bottom left */
-	padding:2% 1% 1% 1%;
-	text-align: center;
+.contactPageHeader {
+  font-family: "Baloo Paaji 2", cursive;
+  /*padding: top right bottom left */
+  padding: 2% 1% 1% 1%;
+  text-align: center;
 }
 
-.contactPageAddress{
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 20% 5% 1% 30%;
-    font-size: 170%;
-    font-weight: 300;
-    letter-spacing: 5px;
-
+.contactPageAddress {
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 170%;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
-@media(max-width: 540px) {
-    .contactPageAddress{
-		padding: 5% 5% 10% 0;
-}
-}
-
-
-
-.contactPageMap{
-	padding:2% 1% 1% 4%;
+.contactPageMap iframe {
+  border: 0;
+  width: 75%;
+  margin: 0 auto;
+  display: block;
 }
 
-.contactPageFormHeader{
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 1% 1% 1% 1%;
-	text-align: center;
+.contactPageFormHeader {
+  font-family: "Baloo Paaji 2", cursive;
+  padding: 1% 1% 1% 1%;
+  text-align: center;
 }
 
-.contactPageForm{
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 1% 25% 1% 25%;
+.contactPageForm {
+  font-family: "Baloo Paaji 2", cursive;
+  padding: 1% 25% 1% 25%;
 }
-
 
 /* Footer */
-.main-footer{
-	background-color: #343a40;
-}
-
-.copyrightText {
-	font-size: 80%;
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 0;
-	letter-spacing: 3px;
-	color:white;
-	padding:2% 1% 0px 3%;
+.main-footer {
+  background-color: #343a40;
 }
 
 
 
 .addressStyle {
-	font-size: 1em;
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 0;
-	letter-spacing: 3px;
-	color:white;
-	padding-top: 6%;
+  font-size: 1em;
+  font-family: "Baloo Paaji 2", cursive;
+  padding: 0;
+  letter-spacing: 3px;
+  color: white;
+  padding-top: 6%;
+  /* padding-right: 1%;    */
+  /* padding-bottom: 0px; */
+  padding-left: 3%;
+}
+
+@media (max-width: 540px) {
+  .addressStyle {
+    font-size: 0.7em;
+    font-family: "Baloo Paaji 2", cursive;
+    padding: 0;
+    letter-spacing: 3px;
+    color: white;
+    padding-top: 6%;
     /* padding-right: 1%;    */
     /* padding-bottom: 0px; */
     padding-left: 3%;
+    text-align: center;
+  }
 }
 
-
-@media(max-width: 540px) {
-    .addressStyle {
-	font-size: .7em;
-	font-family: 'Baloo Paaji 2', cursive;
-	padding: 0;
-	letter-spacing: 3px;
-	color:white;
-	padding-top: 6%;
-    /* padding-right: 1%;    */
-    /* padding-bottom: 0px; */
-	padding-left: 3%;
-	text-align: center;
-}
+.mediaicons {
+  font-size: 3em;
+  padding-left: 0.5em;
+  text-align: right;
 }
 
-
-.mediaicons{
-	font-size:3em;
-	padding-left: .5em;
-	text-align: right;
+@media (max-width: 540px) {
+  .mediaicons {
+    font-size: 2em;
+    padding-left: 0.5em;
+    text-align: center;
+  }
 }
-
-
-@media(max-width: 540px) {
-    .mediaicons {
-		font-size:2em;
-		padding-left: .5em;
-		text-align: center;
-}
-}
-
