@@ -37,6 +37,11 @@ header {
   font-size: 40px;
 }
 
+.imageText {
+    position: absolute;
+    color: red;
+}
+
 /* NEWS Section */
 
 .newsheading {
@@ -67,24 +72,39 @@ header {
   text-align: center;
 }
 
-.newslink {
+ .newstext .newslink {
+  font-family: "Baloo Paaji 2", cursive;
   text-decoration: none;
-  text-align: center;
-  align-items: center;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 300;
   letter-spacing: 2px;
+  color: #204051;
 }
 
-.newslink:hover {
+
+
+.newstext  .newslink a:link {
+  color:#216c94;
   text-decoration: none;
-  text-align: center;
-  align-items: center;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 2px;
+}
+
+ .newstext .newslink a:visited {
+  color: #3b6978;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ .newstext .newslink a:hover {
+  color: #3b6978;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.newstext .newslink a:active {
+  color: #cae8d5;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* Team page */
@@ -146,8 +166,15 @@ header {
   width: 100%;
 }
 
+.linkText {
+  margin: 0;
+}
+
 .derby101Links {
-  padding: 1% 2% 1% 40%;
+  padding: 1% 2% 1%;
+  text-align: center;
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 1.4em;
 }
 
 .derby101Links a:link {
@@ -172,6 +199,13 @@ header {
   color: #cae8d5;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.derby101SubHeader {
+  text-align: center;
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 1.6em;
+  padding: .5%;
 }
 
 /* Contact us page */
@@ -213,12 +247,9 @@ header {
   background-color: #343a40;
 }
 
-
-
 .addressStyle {
   font-size: 1em;
   font-family: "Baloo Paaji 2", cursive;
-  padding: 0;
   letter-spacing: 3px;
   color: white;
   padding-top: 6%;
