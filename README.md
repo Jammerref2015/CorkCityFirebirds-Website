@@ -1,6 +1,6 @@
 Website for Roller Derby Team.
 
-Webite for a Roller Derby team to help promote and help create an awareness by including information on the team, upcoming events, the abilty to sign up for infomation regaring joining the team. 
+Website for a Roller Derby team to help promote and help create an awareness by including information on the team, upcoming events, the abilty to sign up for infomation regaring joining the team. 
 
 
 UX
