@@ -6,9 +6,9 @@
   padding: 0;
 }
 
-/* Header */
-header {
-  background-color: #343a40;
+/* Header  */
+headerColor {
+  background-color: red;
 }
 
 .logo {
@@ -38,8 +38,8 @@ header {
 }
 
 .imageText {
-    position: absolute;
-    color: red;
+  position: absolute;
+  color: red;
 }
 
 /* NEWS Section */
@@ -72,7 +72,7 @@ header {
   text-align: center;
 }
 
- .newstext .newslink {
+.newstext .newslink {
   font-family: "Baloo Paaji 2", cursive;
   text-decoration: none;
   text-transform: uppercase;
@@ -81,21 +81,19 @@ header {
   color: #204051;
 }
 
-
-
-.newstext  .newslink a:link {
-  color:#216c94;
+.newstext .newslink a:link {
+  color: #216c94;
   text-decoration: none;
   text-transform: uppercase;
 }
 
- .newstext .newslink a:visited {
+.newstext .newslink a:visited {
   color: #3b6978;
   text-decoration: none;
   text-transform: uppercase;
 }
 
- .newstext .newslink a:hover {
+.newstext .newslink a:hover {
   color: #3b6978;
   text-decoration: none;
   text-transform: uppercase;
@@ -159,6 +157,7 @@ header {
   letter-spacing: 3px;
   font-family: "Baloo Paaji 2", cursive;
   padding: 1% 1% 1% 1%;
+  font-size: 1.5em;
 }
 
 .derby101Video {
@@ -167,7 +166,7 @@ header {
 }
 
 .linkText {
-  margin: 0;
+  margin: 18px;
 }
 
 .derby101Links {
@@ -205,7 +204,7 @@ header {
   text-align: center;
   font-family: "Baloo Paaji 2", cursive;
   font-size: 1.6em;
-  padding: .5%;
+  padding: 0.5%;
 }
 
 /* Contact us page */
