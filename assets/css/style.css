@@ -1,6 +1,7 @@
 /* Google font */
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap"); */
 
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@ headerColor {
 
 .links {
   font-size: 24px;
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   padding: 0;
   letter-spacing: 3px;
 }
@@ -45,35 +46,35 @@ headerColor {
 /* NEWS Section */
 
 .newsheading {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   font-size: 3em;
   padding-top: 0.2em;
   text-align: center;
 }
 
 .newsline {
-  color: #343a40;
+  color: #dadcde;
   width: 50%;
   margin: auto;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 0.5px dashed;
+  border: 0.5px solid;
 }
 
 .newsheadline {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   font-size: 1.8em;
   text-align: center;
 }
 
 .newstext {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   font-size: 1.3em;
   text-align: center;
 }
 
 .newstext .newslink {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -108,7 +109,7 @@ headerColor {
 /* Team page */
 .teamheader {
   /*padding: top right bottom left */
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   padding: 4% 4% 4% 4%;
   text-align: center;
   font-size: 3em;
@@ -146,7 +147,7 @@ headerColor {
   .skaterName {
     font-size: 2.5em;
     letter-spacing: 3px;
-    font-family: "Baloo Paaji 2", cursive;
+    font-family: "Quicksand", cursive;
     font-weight: bold;
   }
 }
@@ -155,7 +156,7 @@ headerColor {
 .derby101Header {
   text-align: center;
   letter-spacing: 3px;
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   padding: 1% 1% 1% 1%;
   font-size: 1.5em;
 }
@@ -172,7 +173,7 @@ headerColor {
 .derby101Links {
   padding: 1% 2% 1%;
   text-align: center;
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   font-size: 1.4em;
 }
 
@@ -202,21 +203,21 @@ headerColor {
 
 .derby101SubHeader {
   text-align: center;
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   font-size: 1.6em;
   padding: 0.5%;
 }
 
 /* Contact us page */
 .contactPageHeader {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   /*padding: top right bottom left */
   padding: 2% 1% 1% 1%;
   text-align: center;
 }
 
 .contactPageAddress {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   font-size: 170%;
   font-weight: 300;
   letter-spacing: 5px;
@@ -231,13 +232,13 @@ headerColor {
 }
 
 .contactPageFormHeader {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   padding: 1% 1% 1% 1%;
   text-align: center;
 }
 
 .contactPageForm {
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   padding: 1% 25% 1% 25%;
 }
 
@@ -248,7 +249,7 @@ headerColor {
 
 .addressStyle {
   font-size: 1em;
-  font-family: "Baloo Paaji 2", cursive;
+  font-family: "Quicksand", cursive;
   letter-spacing: 3px;
   color: white;
   padding-top: 6%;
@@ -260,7 +261,7 @@ headerColor {
 @media (max-width: 540px) {
   .addressStyle {
     font-size: 0.7em;
-    font-family: "Baloo Paaji 2", cursive;
+    font-family: "Quicksand", cursive;
     padding: 0;
     letter-spacing: 3px;
     color: white;

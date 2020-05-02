@@ -52,7 +52,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link links" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
@@ -63,7 +63,7 @@
                     >Roller Derby 101</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link links" href="contact.html" tabindex="-1"
                     >Join the team! <span class="sr-only">(current)</span></a
                   >
@@ -122,14 +122,15 @@
       <!-- Contact form-->
       <div class="row">
         <div class="col contactPageForm">
-          <form>
+          <form onsubmit="alert('form submitted succesfully')">
             <div class="form-group">
               <!-- <label for="firstName">First Name</label> -->
               <input
                 type="text"
                 class="form-control"
                 id="firstName"
-                placeholder="First Name"
+                placeholder="First Name*"
+                required
               />
             </div>
             <div class="form-group">
@@ -138,7 +139,8 @@
                 type="text"
                 class="form-control"
                 id="lastName"
-                placeholder="Last Name"
+                placeholder="Last Name*"
+                required
               />
             </div>
             <div class="form-group">
@@ -148,7 +150,8 @@
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Enter email"
+                placeholder="Enter email*"
+                required
               />
               <small id="emailHelp" class="form-text text-muted"
                 >We'll never share your email with anyone else.</small
@@ -160,6 +163,7 @@
                 type="checkbox"
                 class="form-check-input"
                 id="exampleCheck1"
+                required
               />
               <label class="form-check-label" for="exampleCheck1"
                 >Over 18 years old? You must be 18 or older to play roller
