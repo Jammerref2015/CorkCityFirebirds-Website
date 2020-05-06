@@ -89,7 +89,7 @@ For any scenarios that have not been automated, test the user stories manually a
 ## Credits
 
 ### Media
-- The photos used in this site were obtained from Dani ???????/
+- The photos used in this site were obtained from Dani Villegas Moran.
 
 ### Acknowledgements
 
