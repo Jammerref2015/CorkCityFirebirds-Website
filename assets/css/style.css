@@ -25,13 +25,6 @@ headerColor {
 
 /* ------------------------------------ Large image - home page */
 
-.mainimage {
- /* width: 100%; */
-  min-height: auto;
-  overflow: hidden;
-}
-
-
 .mainimagetext {
   position: absolute;
   color: white;
@@ -68,6 +61,14 @@ headerColor {
   font-family: "Quicksand", cursive;
   font-size: 1.8em;
   text-align: center;
+}
+
+.eventsheadline {
+  font-family: "Quicksand", cursive;
+  font-size: 1.9em;
+  text-align: center;
+  font-weight: bold;
+  
 }
 
 .newstext {
@@ -263,6 +264,7 @@ headerColor {
     font-family: "Quicksand";
     font-size: 1em;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 @media (max-width: 540px) {
