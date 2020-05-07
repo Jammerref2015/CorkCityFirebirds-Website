@@ -26,24 +26,11 @@ headerColor {
 /* ------------------------------------ Large image - home page */
 
 .mainimage {
-  width: 100%;
+ /* width: 100%; */
   min-height: auto;
   overflow: hidden;
 }
 
-@supports (-webkit-touch-callout: none) {
-  .mainimage {
-  width: 100%;
-  min-height: auto;
-}
-}
-
-@supports not (-webkit-touch-callout: none) {
-  .mainimage {
-  width: 100%;
-  min-height: auto;
-} 
-}
 
 .mainimagetext {
   position: absolute;
