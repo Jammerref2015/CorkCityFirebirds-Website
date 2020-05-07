@@ -1,14 +1,12 @@
 # Roller Derby Website
 
-Website for Roller Derby Team.
-
-Website for a local Roller Derby team to help promote and create public awareness by including information on the team, upcoming events, learn the basics of the sport
+Website for a local Roller Derby 'Cork City Firebirds' team to help promote and create public awareness by including information on the team, upcoming events, learn the basics of the sport
 as well the abilty to sign up for infomation regaring joining the team.
  
 ## UX
  
 
-The aims of this website are primarily to attract two types of user. The first being someone who doesn't know anything about roller derby and is interested in finding out more and is perhaps interested in signing up. This user can view videos that give a high level overview of the sport. They can also fill in a form and contact the team should they 
+The aims of this website are primarily to attract two types of user. The first being someone who doesn't know anything about roller derby and is interested in finding out more and is perhaps interested in joining the team. This user can view videos that give a high level overview of the sport. They can also fill in a contact form should they 
 be interested in joining. 
 
 The second type of user is someone who is just interested in following the team and is checking out if they are any events coming up or simply want the latest news on the team. This information is present on the home page.  
