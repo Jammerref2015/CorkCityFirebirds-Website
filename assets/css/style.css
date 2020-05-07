@@ -1,13 +1,13 @@
 /* Google font */
-/* @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap"); */
-
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+/* ------------------------------------------- Site wide styling */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Header  */
+/* ---------------------------------------------------- Header  */
 headerColor {
   background-color: red;
 }
@@ -23,10 +23,11 @@ headerColor {
   letter-spacing: 3px;
 }
 
-/* Large image - home page */
+/* ------------------------------------ Large image - home page */
 
 .mainimage {
   width: 100%;
+  overflow: hidden;
 }
 
 .mainimagetext {
@@ -43,7 +44,7 @@ headerColor {
   color: red;
 }
 
-/* NEWS Section */
+/*  ------------------------------------------- NEWS Section */
 
 .newsheading {
   font-family: "Quicksand", cursive;
@@ -106,7 +107,7 @@ headerColor {
   text-transform: uppercase;
 }
 
-/* Team page */
+/* ------------------------------------------- Team page */
 .teamheader {
   font-family: "Quicksand", cursive;
   padding: 4% 4% 4% 4%;
@@ -151,7 +152,7 @@ headerColor {
   }
 }
 
-/* Roller derby 101 page */
+/* ------------------------------------------- Roller derby 101 page */
 .derby101Header {
   text-align: center;
   letter-spacing: 3px;
@@ -207,7 +208,7 @@ headerColor {
   padding: 0.5%;
 }
 
-/* Contact us page */
+/* ------------------------------------------- Contact us page */
 .contactPageHeader {
   font-family: "Quicksand", cursive;
   padding: 2% 1% 1% 1%;
@@ -240,7 +241,7 @@ headerColor {
   padding: 1% 25% 1% 25%;
 }
 
-/* Footer */
+/* ------------------------------------------- Footer */
 .main-footer {
   background-color: #343a40;
 }
