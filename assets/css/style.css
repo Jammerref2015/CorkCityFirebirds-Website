@@ -27,7 +27,22 @@ headerColor {
 
 .mainimage {
   width: 100%;
+  
   overflow: hidden;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .mainimage {
+  width: 100%;
+  min-height: auto;
+}
+}
+
+@supports not (-webkit-touch-callout: none) {
+  .mainimage {
+  width: 100%;
+  min-height: auto;
+} 
 }
 
 .mainimagetext {
