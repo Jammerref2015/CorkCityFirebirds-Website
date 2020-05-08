@@ -25,11 +25,12 @@ A folder containing mockups is available in the Github page for this project.
 - Home/News page: This page contains the latest team news and upcoming events. It also contains a short video explaining the sport. 
 - Team page: This page contains information on the various players on the current roster. 
 - Roller Derby 101: This page is a starting point for users wishing to learn more about the sport. It contains a short video explaining the basic rules and it also contains links that users can click on to get more information. 
-- Contact page: This page includes the address and an embedded google map for the training hall. It also contains a form that allows the user to contact the team for general information or if they are interested in joining. 
+- Contact page: This page includes the address and an embedded google map of the training hall. It also contains a form that allows the user to contact the team for general information or if they are interested in joining. 
 
 
 ### Possible features that could be included. 
-- Replace the third party videos with original content created by the team. Rotating videos on the home page to include short highlights from previous games as well as including the introduction to roller derby video. 
+- Replace the third party videos with original content created by the team. 
+- Rotating videos on the home page to include short highlights from previous games as well as including the introduction to roller derby video. 
 - The option to view the site in 'dark mode'
 - A separate log in for team members/staff. This would have to be facilitated using a secure socket layer (TLS 1.2.).  
 
