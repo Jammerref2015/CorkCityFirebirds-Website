@@ -1,4 +1,4 @@
-# Roller Derby Website
+ # Roller Derby Website
 
 This is a website for a local roller derby team to help promote and create public awareness by including information on the team, upcoming events, learn the basics of the sport, 
 as well the ability to sign up for information regarding joining the team.
@@ -43,7 +43,7 @@ A folder containing mockups is available in the Github page for this project.
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses a **Bootstrap** framework. 
 - [Google fonts](https://fonts.google.com)
-	- The project uses google fonts
+	- The project uses google fonts.
 
 ## Testing
 
