@@ -1,4 +1,4 @@
- # Roller Derby Website
+# Roller Derby Website
 
 This is a website for a local roller derby team to help promote and create public awareness by including information on the team, upcoming events, learn the basics of the sport, 
 as well the ability to sign up for information regarding joining the team.
@@ -46,12 +46,6 @@ A folder containing mockups is available in the Github page for this project.
 	- The project uses google fonts.
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
