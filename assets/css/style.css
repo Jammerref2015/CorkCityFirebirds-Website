@@ -7,6 +7,12 @@
   padding: 0;
 }
 
+.imageTEST {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
 /* ---------------------------------------------------- Header  */
 headerColor {
   background-color: red;
