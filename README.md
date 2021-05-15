@@ -3,13 +3,13 @@
 
   
 
-![readme image](/assets/images/readme_image.png)
+![readme image](/assets/images/readme_image.PNG)
 
   
 
   
 
-A live demo can be found [here](http://watchthisnext.herokuapp.com/)
+A live demo can be found [here](https://jammerref2015.github.io/Project1/)
 
 
 # Roller Derby Website
