@@ -1,3 +1,17 @@
+# Website for Cork City Firebirds Roller Derby team.
+  
+
+  
+
+![readme image](/static/images/readme_image.png)
+
+  
+
+  
+
+A live demo can be found [here](http://watchthisnext.herokuapp.com/)
+
+
 # Roller Derby Website
 
 This is a website for a local roller derby team to help promote and create public awareness by including information on the team, upcoming events, learn the basics of the sport, 
@@ -18,7 +32,6 @@ A folder containing mockups is available in the Github page for this project.
 
 ## Features
 
-
  
 ### Existing Features
 
@@ -38,13 +51,36 @@ A folder containing mockups is available in the Github page for this project.
 ### Features Left to Implement
 - Include a calendar of events. 
 
-## Technologies Used
 
+### Frameworks, Libraries and Programs Used
+
+#### Languages Used
+
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+-  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+#### Front-End
 
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses a **Bootstrap** framework. 
-- [Google fonts](https://fonts.google.com)
-	- The project uses google fonts.
+
+[Google Fonts](https://fonts.google.com/) - Google Fonts was used to import 'Quicksand' font in the style.css file
+
+-  [Font Awesome](https://fontawesome.com/) - Font Awesome was used to add social media icons at the bottom of the page and icons throughout the pages.
+
+
+#### General
+-  [Git](https://git-scm.com/) - Git was used to allowing for tracking of any changes in the code and version control.
+
+-  [Github](https://github.com/) - GitHub is used to host the project files.
+
+-  [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create mockups.
+
+-  [GitPod](https://www.gitpod.io/) - Web based IDE used to compile the code.
+
+-  [TinyJPG](https://tinypng.com/) - Used to minify and compress images.
+
 
 ## Testing
 
@@ -56,11 +92,12 @@ A folder containing mockups is available in the Github page for this project.
     
 2. Internal and external links. 
 	1. Checked to ensure that the links in the navbar directed to the correct pages ensuring that the site could be navigated. 
-	2. Clicked on links that directed the user to another site. Ensuring that they pointed to the correct site and also opened in a new browser window. 
+	2. Clicked on links that directed the user to another site. Ensuring that they pointed to the correct site and also opened in a new browser window. Worked as intended. 
     
 
 - Bugs 
 	- Main image on home page appears stretched horizonitally when viewed on iphone and iPad. Appears correctly on android device as well as in dev tools in Chrome, Safari and Firefox. 
+    - This was fixed by adding align-self: flex-start;
 
 
 ## Deployment
@@ -76,4 +113,8 @@ A folder containing mockups is available in the Github page for this project.
 
 ### Acknowledgements
 
-- I received inspiration for this project from visiting various website for different sports teams. 
+- I received inspiration for this project from visiting various websites for different sports teams ranging from basketball to football. 
+
+
+
+
