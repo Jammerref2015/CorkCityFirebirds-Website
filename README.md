@@ -9,7 +9,7 @@
 
   
 
-A live demo can be found [here](https://jammerref2015.github.io/Project1/)
+A live demo can be found [here](https://jammerref2015.github.io/CorkCityFirebirds-Website/)
 
 
 # Roller Derby Website
@@ -102,7 +102,7 @@ A folder containing mockups is available in the Github page for this project.
 
 ## Deployment
 
-- A Github page was created. https://jammerref2015.github.io/Project1/ This enabled the site to be viewed on different browsers and screen sizes. 
+- A Github page was created. https://jammerref2015.github.io/CorkCityFirebirds-Website/ This enabled the site to be viewed on different browsers and screen sizes. 
 
 
 
